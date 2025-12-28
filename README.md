@@ -1,10 +1,10 @@
-# Neural Networks Basics 🧠
+# Neural Networks Basics 
 
 A comprehensive collection of basic neural network implementations from scratch using NumPy. This repository demonstrates fundamental concepts of neural networks including forward propagation, backpropagation, and gradient descent - all implemented without deep learning frameworks.
 
 ![Neural Network Architecture](assets/nn_architecture.png)
 
-## 📚 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -16,7 +16,7 @@ A comprehensive collection of basic neural network implementations from scratch 
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🎯 Overview
+## Overview
 
 This repository contains multiple implementations of neural networks, each demonstrating different concepts and architectures:
 
@@ -26,15 +26,15 @@ This repository contains multiple implementations of neural networks, each demon
 
 All implementations are built from scratch using only NumPy, making them perfect for understanding the mathematics and mechanics behind neural networks.
 
-## ✨ Features
+## Features
 
-- 🔢 **Pure NumPy Implementation**: No high-level frameworks, just mathematics
-- 📊 **Comprehensive Visualizations**: Architecture diagrams, training curves, and decision boundaries
-- 🎓 **Educational**: Well-commented code perfect for learning
-- 🔬 **Multiple Examples**: Different approaches to building neural networks
-- 📈 **Training Visualization**: Track loss and performance over epochs
+- **Pure NumPy Implementation**: No high-level frameworks, just mathematics
+- **Comprehensive Visualizations**: Architecture diagrams, training curves, and decision boundaries
+- **Educational**: Well-commented code perfect for learning
+- **Multiple Examples**: Different approaches to building neural networks
+- **Training Visualization**: Track loss and performance over epochs
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 
@@ -60,7 +60,7 @@ All implementations are built from scratch using only NumPy, making them perfect
    pip install -r requirements.txt
    ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 nnbasics/
@@ -79,7 +79,7 @@ nnbasics/
 └── README.md                   # This file
 ```
 
-## 💡 Examples
+## Examples
 
 ### 1. Simple Neural Network (`examples/nn.py`)
 
@@ -130,7 +130,7 @@ Epoch 20 loss: 0.184
 Epoch 990 loss: 0.006
 ```
 
-## 🎨 Visualizations
+## Visualizations
 
 ### Generate All Visualizations
 
@@ -167,7 +167,7 @@ The network uses a 2-2-1 architecture:
 #### Training Progress
 Watch how the network learns over time by observing the loss curve decrease from ~0.3 to near 0.
 
-## 📖 Learning Resources
+## Learning Resources
 
 ### Understanding the Code
 
@@ -195,35 +195,6 @@ Each implementation demonstrates key neural network concepts:
    w5 -= learn_rate * d_L_d_ypred * d_ypred_d_w5
    ```
 
-### Key Concepts Covered
-
-- ✅ Activation Functions (Sigmoid)
-- ✅ Forward Propagation
-- ✅ Backpropagation
-- ✅ Gradient Descent
-- ✅ Loss Functions (MSE)
-- ✅ Weight Initialization
-- ✅ Training Loops
-- ✅ Binary Classification
-
-## 🔬 Experiments
-
-Try modifying the code to experiment with:
-
-- Different learning rates (0.01, 0.1, 1.0)
-- More training epochs
-- Different network architectures (add more hidden neurons)
-- Different activation functions
-- Different datasets
-
-## 🤝 Contributing
-
-Contributions are welcome! Here are some ways you can contribute:
-
-- 🐛 Report bugs
-- 💡 Suggest new features or examples
-- 📝 Improve documentation
-- 🔧 Submit pull requests
 
 ## 📄 License
 
@@ -236,9 +207,3 @@ This repository is created for educational purposes to help understand the funda
 ## 📬 Contact
 
 For questions or feedback, please open an issue on GitHub.
-
----
-
-**Happy Learning! 🚀**
-
-*Built with ❤️ using NumPy and Mathematics*
